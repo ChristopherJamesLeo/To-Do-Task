@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="./app.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center my-4">
+            <span class="date">23.21.22</span>
+            <h1 class="mb-4">To Do List</h1>
+            <form class="add text-center my-4">
+                <label for="">Enter Your Task</label>
+                <input type="text" name="add" id="" class="form-control m-auto" autocomplete="off">
+            </form>
+        </header>
+
+        <ul class="list-group todos mx-auto text-light">
+            <!-- <li class="list-group-item d-flex justify-content-between text-aligns-center">
+                <span>Reading</span>
+                <span class="insetDate">22.3.2022</span>
+                <i class="fas fa-trash-alt delete"></i>
+            </li> -->
+        </ul>
+        <div class="cear-all d-flex justify-content-between text-aligns-center"><span>Clear All</span> <i class="fas fa-trash-alt delete-All"></i></div>
+    </div>
+</body>
+</html>

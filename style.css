@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left , white , antiquewhite);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+.container{
+    width: 500px;
+    padding: 30px;
+    border: 1px solid white;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.35);
+}
+.input-field{
+    text-align: center;
+}
+input[type="text"]{
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right , white , antiquewhite);
+    max-width: 400px;
+}
+.todos li{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+.delete{
+    cursor: pointer;
+    color: #ff0000;
+}
+.cear-all{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ff0000;
+}
+.delete-All{
+    color: #ff0000;
+}
